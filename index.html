@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manohar Portfolio</title>
+    <link rel="stylesheet" href="css/styles1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="#" class="logo-link">
+                        <span class="logo-text">Manohar Korikana</span>
+                    </a>
+                </div>
+                <div class="menu-toggle">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-close">
+                        <i class="fas fa-times"></i>
+                    </li>
+
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+                    <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-image fade-in delay-2">
+                        <div class="profile-container">
+                            <img src="src/profile_picture2.jpeg" alt="Manohar Korikana" class="profile-pic">
+                            <div class="floating-shapes">
+                                <div class="shape shape-1"></div>
+                                <div class="shape shape-2"></div>
+                                <div class="shape shape-3"></div>
+                                <div class="shape shape-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-text">
+                        <h1 class="fade-in">Hi, I'm <span class="highlight">Manohar Korikana</span></h1>
+                        <h2 class="fade-in delay-1">Data Scientist | ML Engineer | AI Engineer</h2>
+                        <p class="fade-in delay-2">Building intelligent systems that extract value from data to solve real-world problems</p>
+                        <div class="hero-buttons fade-in delay-3">
+                            <a href="#projects" class="btn btn-primary">View My Work</a>
+                            <a href="src/Manohar_Korikana_Resume.pdf"
+                            target="_blank"
+                            class="btn btn-secondary">
+                            <i class="fas fa-file-pdf"></i> View Resume
+                            </a>
+                            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                            <a href="https://www.linkedin.com/in/korikana-manohar/" 
+                            target="_blank"
+                            class="btn btn-linkedin">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+                <p>Scroll Down</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                       <p>
+                        I’m a Data Scientist and AI Engineer focused on building scalable, production-ready AI systems using machine learning,
+                         LLMs, and agentic architectures. With a strong foundation in statistics and programming, I work across the full lifecycle
+                         from data analysis and model development to cloud deployment and evaluation.
+                        </p>
+
+                        <p>
+                        I’ve applied data-driven and AI-powered solutions across enterprise automation, healthcare analytics, and predictive modeling, 
+                        with a focus on turning complex data into clear, actionable insights. Outside of work, I enjoy hiking, sketching and drawing, exploring emerging technology trends,
+                         and mentoring aspiring data professionals.
+                        </p>
+
+                        <div class="about-stats">
+                            <div class="stat">
+                                <span class="stat-number">2+</span>
+                                <span class="stat-text">Years of Professional Experience</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">11+</span>
+                                <span class="stat-text">Projects Completed</span>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="skills-content">
+                    <div class="skills-categories">
+                        <div class="skills-category active" data-category="all">All</div>
+                        <div class="skills-category" data-category="languages">Languages</div>
+                        <div class="skills-category" data-category="tools">Tools & Platforms</div>
+                        <div class="skills-category" data-category="ml">ML & AI</div>
+                        <div class="skills-category" data-category="databases">Databases</div>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item" data-categories="languages,ml">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <h3 class="skill-name">Python</h3>
+                            
+                        </div>
+                        
+                        <div class="skill-item" data-categories="languages,databases">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <h3 class="skill-name">SQL</h3>
+                            
+                        </div>
+
+                        <div class="skill-item" data-categories="languages">
+                            <div class="skill-icon"><i class="devicon-cplusplus-plain colored"></i></div>
+                            <h3 class="skill-name">C++</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="tools">
+                            <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                            <h3 class="skill-name">Tableau</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="tools">
+                            <div class="skill-icon"><i class="fas fa-chart-bar"></i></div>
+                            <h3 class="skill-name">Power BI</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="ml">
+                            <div class="skill-icon"><i class="devicon-tensorflow-original colored"></i></div>
+                            <h3 class="skill-name">TensorFlow</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="ml">
+                            <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                            <h3 class="skill-name">Machine Learning</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="ml">
+                            <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                            <h3 class="skill-name">Deep Learning</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="ml">
+                            <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                            <h3 class="skill-name">CNNs</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="ml">
+                            <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                            <h3 class="skill-name">RNNs/LSTMs</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="ml">
+                            <div class="skill-icon"><i class="fas fa-robot"></i></div>
+                            <h3 class="skill-name">RAG</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="ml">
+                            <div class="skill-icon"><i class="fas fa-robot"></i></div>
+                            <h3 class="skill-name">Agentic AI</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="ml">
+                            <div class="skill-icon"><i class="devicon-pytorch-original colored"></i></div>
+                            <h3 class="skill-name">PyTorch</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="ml">
+                            <div class="skill-icon"><i class="fas fa-robot"></i></div>
+                            <h3 class="skill-name">Scikit-Learn</h3>
+                            
+                        </div>
+                        
+                        <div class="skill-item" data-categories="databases">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <h3 class="skill-name">PostgreSQL</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="databases">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <h3 class="skill-name">Vector DB</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="tools">
+                            <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                            <h3 class="skill-name">AWS</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="tools">
+                            <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                            <h3 class="skill-name">GCP</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="tools">
+                            <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                            <h3 class="skill-name">MLOps</h3>
+                            
+                        </div>
+
+                        <div class="skill-item" data-categories="ml">
+                            <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                            <h3 class="skill-name">Supervised Learning</h3>
+                            
+                        </div>
+
+                        <div class="skill-item" data-categories="ml">
+                            <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
+                            <h3 class="skill-name">Unsupervised Learning</h3>
+                            
+                        </div>
+
+                        <div class="skill-item" data-categories="ml">
+                            <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                            <h3 class="skill-name">Neural Networks</h3>
+                            
+                        </div>
+
+                        <div class="skill-item" data-categories="ml">
+                            <div class="skill-icon"><i class="fas fa-robot"></i></div>
+                            <h3 class="skill-name">LLMs / Transformers</h3>
+                            
+                        </div>
+
+
+                        <div class="skill-item" data-categories="ml">
+                            <div class="skill-icon"><i class="fas fa-language"></i></div>
+                            <h3 class="skill-name">NLP</h3>
+                            
+                        </div>
+                        
+                        <div class="skill-item" data-categories="ml">
+                            <div class="skill-icon"><i class="fas fa-robot"></i></div>
+                            <h3 class="skill-name">Hugging Face</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="languages">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <h3 class="skill-name">HTML</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="languages">
+                            <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                            <h3 class="skill-name">CSS</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="languages">
+                            <div class="skill-icon"><i class="fab fa-js"></i></div>
+                            <h3 class="skill-name">JavaScript</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="tools">
+                            <div class="skill-icon"><i class="fab fa-github"></i></div>
+                            <h3 class="skill-name">GitHub</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="tools">
+                            <div class="skill-icon"><i class="devicon-jupyter-plain colored"></i></div>
+                            <h3 class="skill-name">Jupyter Notebook</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="tools">
+                            <div class="skill-icon"><i class="devicon-microsoftsqlserver-plain"></i></div>
+                            <h3 class="skill-name">Excel</h3>
+                            
+                        </div>
+                        <div class="skill-item" data-categories="tools">
+                            <div class="skill-icon"><i class="devicon-vscode-plain colored"></i></div>
+                            <h3 class="skill-name">VS Code</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Projects</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="src/project_images/autocorphub.png" alt="AutoCorp Hub">
+                            <div class="project-overlay">
+                                <div class="project-category">Agentic AI</div>
+                                <!-- <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">AutoCorp Hub - Multi Agent Automation Platform</h3>
+                            <p class="project-description">Developed an AI-driven automation Platform integrating agents for enterprise operations(HR Onboarding, Mail Automation, Meeting Scheduler), 
+                                built using FastAPI, Docker, and kubernetes for modular and scalable deployment, used Google Cloud Platform(GCP)  services such as GKE, Vertex AI, Cloud APIs, and Storage Buckets 
+                                for model orchestration, data
+management, and cloud-based automation workflows.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">LangGraph</span>
+                                <span class="tech-tag">LangChain</span>
+                                <span class="tech-tag">GCP</span>
+                                <span class="tech-tag">Docker</span>
+                                <span class="tech-tag">Kubernetes</span>
+                                <span class="tech-tag">FastAPI</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="src/project_images/hoteloperations.png" alt="hotel operations">
+                            <div class="project-overlay">
+                                <div class="project-category">Agentic AI</div>
+                                <div class="project-links">
+                                    <!-- <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Hotel Operations Agent - Staff Scheduling Automation</h3>
+                            <p class="project-description">Developed AI-driven hotel operations management system that automates staff communication, shift adjustments, and replacement assignemnt using multi-agent architecture.
+                                Built using Python and multi-agent orchestration framework (AutoGen) with a Streamlit-based conversational interface for real-time interaction.The system leverages LLM-based intent detection
+                                to interpret staff messages, coordinates agents through a centralized orchestration layer and integrates with Google Sheets APIs as an operational datastore for Schedule management.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">AutoGen</span>
+                                <span class="tech-tag">Google Sheets API</span>
+                                <span class="tech-tag">Streamlit</span>
+                                <span class="tech-tag">Agents Orchestration</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="src/project_images/rag_document.png" alt="rag">
+                            <div class="project-overlay">
+                                <div class="project-category">RAG & LLMs</div>
+                                <div class="project-links">
+                                    <!-- <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">RAG Based Document Intelligence Platform</h3>
+                            <p class="project-description">Built an interactive application that allows users to upload documents and query them using a Retrieval-Augmented Generation (RAG) pipeline.
+                                 Documents are chunked, embedded, and stored in a vector database for semantic search. User queries retrieve the most relevant document chunks, which are passed to a 
+                                 Large Language Model (LLM) to generate accurate, context-aware responses displayed through the interface.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">LLMs</span>
+                                <span class="tech-tag">RAG</span>
+                                <span class="tech-tag">Vector Db</span>
+                                <span class="tech-tag">Streamlit</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="src/project_images/rag_document.png" alt="rag">
+                            <div class="project-overlay">
+                                <div class="project-category">MLOps</div>
+                                <div class="project-links">
+                                    <!-- <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">End-to-End ML Pipeline with Deployment & Monitoring</h3>
+                            <p class="project-description">Built a complete machine learning pipeline that covers data ingestion, preprocessing, model training, evaluation, deployment, and monitoring.
+                                 The system trains a predictive ML model on structured data, tracks experiments and model versions, and deploys the best-performing model as a REST API. Model performance 
+                                 and prediction drift are monitored to ensure reliability over time.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Scikit-learn</span>
+                                <span class="tech-tag">MLOps</span>
+                                <span class="tech-tag">ML Lifecycle</span>
+                                <span class="tech-tag">Docker</span>
+                                <span class="tech-tag">Model Deployment</span>
+                                <span class="tech-tag">Model Monitoring</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="src/project_images/rag_document.png" alt="rag">
+                            <div class="project-overlay">
+                                <div class="project-category">LLM Evaluation</div>
+                                <div class="project-links">
+                                    <!-- <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">LLM Evaluation & Benchmarking Framework for RAG Systems</h3>
+                            <p class="project-description">Built an evaluation framework to benchmark and compare Large Language Models in a Retrieval-Augmented Generation (RAG) setup.
+                                 The framework measures response quality using metrics such as relevance, faithfulness, latency, and consistency across multiple prompts and datasets. 
+                                 Results are logged and visualized to support model selection and optimization.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Prompt Engineering</span>
+                                <span class="tech-tag">LLMs</span>
+                                <span class="tech-tag">Model Evaluation</span>
+                                <span class="tech-tag">NLP</span>
+                                <span class="tech-tag">RAG</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="src/project_images/rag_document.png" alt="rag">
+                            <div class="project-overlay">
+                                <div class="project-category">SQL</div>
+                                <div class="project-links">
+                                    <!-- <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Business Intelligence & Analytics Using SQL and Python</h3>
+                            <p class="project-description">Developed a business analytics solution using relational databases to answer real-world business questions. Designed SQL queries 
+                                to analyze customer behavior, sales trends, and performance metrics, and combined SQL outputs with Python for further analysis and visualization. 
+                                Insights were presented through dashboards and summary reports to support data-driven decision-making.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">SQL</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Data Modeling</span>
+                                <span class="tech-tag">Business Analytics</span>
+                                <span class="tech-tag">Data Visualization</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card hidden-project">
+                        <div class="project-image">
+                            <img src="src/project_images/voice_cloning.png" alt="voice_cloning">
+                            <div class="project-overlay">
+                                <div class="project-category">Voice Cloning</div>
+                                <div class="project-links">
+                                    <!-- <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Multilingual Voice Cloning & Speech Transformation Platform</h3>
+                            <p class="project-description">Developed end-to-end platform that enables cross-lingual speech transformation and personalized voice synthesis. The system allows any uploaded audio sample to be automatically
+                                transcribed, language-detected, translated into target language, and re-synthesized as speech using the original speaker’s voice characteristics.In addition, the platform supports converting any 
+                                user-provided text or audio input into speech rendered in a user-uploaded reference voice, preserving tone, timbre, and speaking style through voice cloning.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Speech-to-Text (Whisper)</span>
+                                <span class="tech-tag">Neural Machine Translation(Hugging Face)</span>
+                                <span class="tech-tag">Voice Cloning (XTTS v2)</span>
+                                <span class="tech-tag">Audio Processing Pipelines</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card hidden-project">
+                        <div class="project-image">
+                            <img src="src/project_images/voice_cloning.png" alt="voice_cloning">
+                            <div class="project-overlay">
+                                <div class="project-category">Real-Time Analytics</div>
+                                <div class="project-links">
+                                    <!-- <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Real-Time Data Streaming & Analytics Pipeline</h3>
+                            <p class="project-description">Developed a real-time analytics system that ingests streaming data and processes it for live monitoring and insights. 
+                                The pipeline simulates real-world event streams, performs real-time aggregation, and updates dashboards or alerts dynamically. The system demonstrates 
+                                scalable data ingestion and real-time decision support.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Data Engineering</span>
+                                <span class="tech-tag">Real-Time Analytics</span>
+                                <span class="tech-tag">Streaming Pipelines</span>
+                                <span class="tech-tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card hidden-project">
+                        <div class="project-image">
+                            <img src="src/project_images/TrendAnalysis.png" alt="Trend Analysis">
+                            <div class="project-overlay">
+                                <div class="project-category">Data Analysis</div>
+                                <div class="project-links">
+                                    <!-- <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Trend Analysis Across Diverse Fields</h3>
+                            <p class="project-description">Performed in-depth data analysis on diverse datasets across healthcare, weather, agriculture, environment, and GDP domains. Built
+                        predictive models using advanced regression techniques such as XGBoost, Gradient Boosting, Bagging, Random Forest, and KNN,
+                        and visualized insights using Python (Matplotlib, Seaborn) to forecast future trends.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Data Analysis</span>
+                                <span class="tech-tag">Exploratory Data Analysis</span>
+                                <span class="tech-tag">Machine Learning</span>
+                                <span class="tech-tag">Regression models</span>
+                                <span class="tech-tag">Gradient Boosting</span>
+                                <span class="tech-tag">XGBoost</span>
+                                <span class="tech-tag">Gradient Boosting</span>
+                                <span class="tech-tag">Random Forest</span>
+                                <span class="tech-tag">Data Visualization</span>
+                                <span class="tech-tag">Matplotlib</span>
+                                <span class="tech-tag">Seaborn</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card hidden-project">
+                        <div class="project-image">
+                            <img src="src/project_images/diabetic_retinopathy.png" alt="diabetic_retinopathy">
+                            <div class="project-overlay">
+                                <div class="project-category">Data Analysis</div>
+                                <div class="project-links">
+                                    <!-- <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Diabetic Retinopathy Detection Using CNN</h3>
+                            <p class="project-description"> Developed Neural Network Model to predict the Diabetic Retinopathy disease by processing the retinal image. Worked on Data
+                            Collection, Data Cleaning, Data exploration, and Prediction.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Tensorflow</span>
+                                <span class="tech-tag">Pandas</span>
+                                <span class="tech-tag">Numpy</span>
+                                <span class="tech-tag">CNN</span>
+                                <span class="tech-tag">Neural Networks</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card hidden-project">
+                        <div class="project-image">
+                            <img src="src/project_images/car_sales.png" alt="car_sales">
+                            <div class="project-overlay">
+                                <div class="project-category">Data Analysis & Visualization</div>
+                                <div class="project-links">
+                                    <!-- <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Car Sales Trend analysis & Forecasting</h3>
+                            <p class="project-description">Performed exploratory data analysis (EDA) to uncover yearly sales patterns and market trends, and applied data preprocessing 
+                                techniques to ensure data quality, consistency, and readiness for modeling. Built and evaluated multiple regression-based machine learning models to 
+                                predict future car sales performance. Created interactive Tableau dashboards to visualize insights, compare model outputs, and communicate analytical 
+                                findings effectively to non-technical stakeholders, enabling data-driven decision-making.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Exploratory Data Analysis</span>
+                                <span class="tech-tag">Data Preprocessing</span>
+                                <span class="tech-tag">Regression Models</span>
+                                <span class="tech-tag">Model Evaluation</span>
+                                <span class="tech-tag">Data Visualization</span>
+                                <span class="tech-tag">Tableau</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-more-container">
+                    <button class="btn btn-secondary view-more-btn">
+                    View More Projects
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- Experience Section -->
+        <section class="experience section" id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Experience</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Aug 2025 - Present</div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">AI Engineering Intern</h3>
+                            <h4 class="timeline-company">beaconAI</h4>
+                            <p class="timeline-description">Working on the design, development, testing, and deployment of AI agents, including RAG pipelines and LLM fine-tuning.
+Supporting the integration of AI/ML models with APIs, cloud services, and databases. Developing user interfaces and tools that allow seamless interactions with AI agents and systems. Contributing to workflow
+automation and cloud deployment of AI-driven applications, ensuring scalability and reliability.</p>
+                            <div class="timeline-skills">
+                                <span class="timeline-skill">Python</span>
+                                <span class="timeline-skill">RAG</span>
+                                <span class="timeline-skill">LLMs</span>
+                                <span class="timeline-skill">Agentic AI</span>
+                                <span class="timeline-skill">ML models</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Feb 2023 - July 2024</div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Software Engineer I</h3>
+                            <h4 class="timeline-company">NCR Atleos</h4>
+                            <p class="timeline-description">Supported backend development of ATM product features using C++ and COM-based DLL integration. Developed automation scripts in Python to streamline Jira workflows. Built a custom MSI installer using WIX Toolset to simplify deployments.</p>
+                            <div class="timeline-skills">
+                                <span class="timeline-skill">C++</span>
+                                <span class="timeline-skill">Python Automation</span>
+                                <span class="timeline-skill">Wix Toolset</span>
+                                <span class="timeline-skill">Web Scraping</span>
+                                <span class="timeline-skill">Jira</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Sep 2021 - Nov 2021</div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Data Science Intern</h3>
+                            <h4 class="timeline-company">Verzeo</h4>
+                            <p class="timeline-description">Analyzed the data of Car Sales to identify the patterns. Developed models to predict the future
+ Car Sales using Machine Learning Techniques. Used Tableau Tool to create interactive visualizations of the insights.</p>
+                            <div class="timeline-skills">
+                                <span class="timeline-skill">Python</span>
+                                <span class="timeline-skill">Machine Learning</span>
+                                <span class="timeline-skill">Predictive Modeling</span>
+                                <span class="timeline-skill">Tableau</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="achievements section" id="achievements">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Achievements</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3 class="achievement-title">Hackathon Idea Approved by Review Panel</h3>
+                        <p class="achievement-description">Proposed innovative ideas during an internal hackathon at NCR Atleos, which were approved by the first-level review panel for further consideration and development.</p>
+                        <span class="achievement-year">2023 & 2024</span>
+                    </div>
+                    
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3 class="achievement-title">Smart India Hackathon Winner</h3>
+                        <p class="achievement-description">Won the prestigious, nationwide Smart India Hackathon by advancing to the final round, presenting a proposed solution, and building a functional prototype that addressed a real-world problem.</p>
+                        <span class="achievement-year">2022</span>
+                    </div>
+
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3 class="achievement-title">Academic Merit Award</h3>
+                        <p class="achievement-description">Received an Academic Merit Award in recognition of outstanding academic performance during the Bachelor of Engineering program.</p>
+                        <span class="achievement-year">2019 - 2023</span>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+
+        <section class="achievements section" id="certifications">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Certifications</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="achievements-grid">
+                    
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3 class="achievement-title">GenAI & LLMs</h3>
+                        <p class="achievement-description">Completed an advanced course on Generative AI, covering transformer architecture, GPT models, core LLM concepts, and hands-on implementation of large language models.</p>
+                        <span class="issuing-authority">SuperDataScience</span>
+                        <span class="achievement-year">2022</span>
+                    </div>
+
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3 class="achievement-title">Data Science With Python</h3>
+                        <p class="achievement-description">Completed comprehensive training covering Python programming, statistical analysis, machine learning, SQL, and data visualization with Tableau. Built an end-to-end project applying all these concepts.</p>
+                        <span class="issuing-authority">Verzeo</span>
+                        <span class="achievement-year">2022</span>
+                    </div>
+
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3 class="achievement-title">Web Development</h3>
+                        <p class="achievement-description">Completed training in HTML, CSS, and JavaScript, and developed a fully interactive, responsive website as part of a capstone project.</p>
+                        <span class="issuing-authority">BOLT IOT</span>
+                        <span class="achievement-year">2022</span>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education section" id="education">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Education</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2024 - Present</div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Master of Science in Data Science</h3>
+                            <h4 class="timeline-company">University of Colorado At Boulder</h4>
+                            <p class="timeline-description">Specialized in Data Analysis, Machine Learning, Neural Networks and Transformer architecture. Gained deep understanding of advanced statistical methods and their applications in real-world.</p>
+                            <div class="timeline-skills">
+                                <span class="timeline-skill">GPA: 4.0/4.0</span>
+                                <span class="timeline-skill">Advanced Statistics</span>
+                                <span class="timeline-skill">Machine Learning</span>
+                                <span class="timeline-skill">Neural Networks</span>
+                                <span class="timeline-skill">Data Mining</span>
+                                <span class="timeline-skill">Data center Scale Computing</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2019 - 2023</div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Bachelor of Engineering in Electronics and Communications</h3>
+                            <h4 class="timeline-company">Vasavi College of Engineering</h4>
+                            <p class="timeline-description">Specialized in C++ and Python programming, Data Structures and Algorithms, Database Management Systems (DBMS), SQL, Image and Video Processing, as well as foundational concepts in Machine Learning and Deep Learning.</p>
+                            <div class="timeline-skills">
+                                <span class="timeline-skill">GPA: 9.32/10</span>
+                                <span class="timeline-skill">Smart India Hackathon 2022 Winner</span>
+                                <span class="timeline-skill">Academic Merit Award</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+    
+                        <!-- Email -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Email</h3>
+                                <p>korikanamanohar2@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <!-- LinkedIn -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>LinkedIn</h3>
+                                <p>
+                                    <a href="https://www.linkedin.com/in/korikana-manohar/" target="_blank">
+                                        Connect
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Location -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Location</h3>
+                                <p>Boulder, CO</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo-link">
+                        <span class="logo-text">Manohar Korikana</span>
+                    </a>
+                    <p>Data Scientist | ML Engineer | AI Engineer</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#achievements">Achievements</a></li>
+                        <li><a href="#certifications">Certifications</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+        
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/korikana-manohar/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
