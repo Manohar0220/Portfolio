@@ -563,8 +563,8 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
-    navClose.addEventListener('click', () => {
-    navMenu.classList.remove('active');
+    navClose?.addEventListener('click', () => {
+        navMenu?.classList.remove('active');
     });
 
     navLinks.forEach(link => link.addEventListener('click', smoothScroll));
